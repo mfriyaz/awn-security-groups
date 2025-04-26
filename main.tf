@@ -3,7 +3,7 @@ module "rdp_mssql_sg" {
   source      = "./modules/security_group"
   name        = "rdp-mssql-access"
   description = "Allow RDP and MSSQL access"
-  vpc_id      = "vpc-xxxxxxxx"
+  vpc_id      = "vpc-0a042b1c409605c9c"
   allowed_cidrs = ["192.168.1.0/24"]
   tags = {
     Environment = "Dev"
