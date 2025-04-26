@@ -1,6 +1,6 @@
 # Module for creating the SG
 module "rdp_mssql_sg" {
-  source      = "../../modules/security_group"
+  source      = "./modules/security_group"
   name        = "rdp-mssql-access"
   description = "Allow RDP and MSSQL access"
   vpc_id      = "vpc-xxxxxxxx"
