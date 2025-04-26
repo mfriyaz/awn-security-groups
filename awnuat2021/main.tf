@@ -1,7 +1,7 @@
 # Module for creating the SG
 module "rdp_mssql_sg" {
   source      = "./modules/security_group"
-  name        = "rdp-mssql-access"
+  name        = "ec2-ftp-mssql-access"
   description = "Allow RDP and MSSQL access"
   vpc_id      = "vpc-0a042b1c409605c9c"
   allowed_cidrs = ["192.50.10.0/24"]
