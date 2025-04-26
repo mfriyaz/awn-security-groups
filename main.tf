@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "app-southeast-1"
-}
-
 # Module for creating the SG
 module "rdp_mssql_sg" {
   source      = "../../modules/security_group"
