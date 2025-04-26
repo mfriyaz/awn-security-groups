@@ -12,7 +12,7 @@ module "rdp_mssql_sg" {
 }
 
 # Fetch the EC2 instance by ID
-data "aws_instance" "target" {
+data "aws_instance" "target1" {
   instance_id = "i-0c4058e53e9938e97"  # Replace with your actual instance ID
 }
 
