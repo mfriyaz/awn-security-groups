@@ -19,5 +19,5 @@ data "aws_instance" "target" {
 # Attach the SG to the instance's primary network interface
 resource "aws_network_interface_sg_attachment" "attach_sg" {
   security_group_id    = module.rdp_mssql_sg.security_group_id
-  network_interface_id = "eni-0eedee2e775b1552d"
+  network_interface_id = "eni-05c647588dee64f24"
 }
