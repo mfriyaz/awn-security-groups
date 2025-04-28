@@ -13,7 +13,7 @@ module "ftp_mssql_sg" {
 
 # Fetch the EC2 instance by ID
 data "aws_instance" "free_tier_setup_2024" {
-  instance_id = "i-00898d4cbde268243"  # Replace with your actual instance ID
+  instance_id = "000-xxx"  # Replace with your actual instance ID
 }
 
 # Attach the SG to the instance's primary network interface
