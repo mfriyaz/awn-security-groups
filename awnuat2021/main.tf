@@ -6,7 +6,7 @@ module "rdp_mssql_sg" {
   vpc_id      = "vpc-0a042b1c409605c9c"
   allowed_cidrs = ["192.50.10.0/24"]
   tags = {
-    Environment = "Dev"
+    Environment = "Deve"
     ManagedBy   = "Terraform"
   }
 }
